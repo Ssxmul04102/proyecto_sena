@@ -88,6 +88,66 @@ El sistema fue descompuesto en 9 épicas funcionales, cada una con historias de 
 
 ---
 
+## ✅ Objetivos Centrales por Grupo de Historias
+
+### 📦 1. **Flujo Básico de Compra (Cliente)**
+**Historias incluidas:**
+- HU02 – Inicio de sesión  
+- HU08 – Agregar productos al carrito  
+- HU09 – Modificar cantidad  
+- HU14 – Registro de dirección de envío  
+
+**🎯 Objetivo:**  
+**Permitir al cliente gestionar su proceso de compra de forma personalizada y eficiente, desde el acceso a su cuenta hasta la preparación del pedido para su envío.**
+
+**🧠 ¿Por qué?**  
+Estas historias representan el flujo inicial de compra. Desde ingresar al sistema, seleccionar productos, ajustarlos y preparar el checkout.
+
+---
+
+### 📦 2. **Ciclo Completo de Compra y Administración (Cliente/Admin)**
+**Historias incluidas:**
+- HU01 – Registro de cliente  
+- HU03 – Recuperación de contraseña  
+- HU06 – Ver catálogo  
+- HU11 – Selección de método de pago  
+- HU12 – Resumen de pedido  
+- HU13 – Confirmación por correo  
+- HU15 – Consulta de estado del pedido  
+- HU18 – Eliminar producto (admin)  
+- HU16 – Gestión de pedidos (admin)
+
+**🎯 Objetivo:**  
+**Facilitar y administrar una experiencia de compra completa, segura y eficiente de paneles solares, permitiendo a los clientes registrarse, gestionar sus pedidos y pagos, y a los administradores mantener actualizado el catálogo y supervisar las ventas.**
+
+**🧠 ¿Por qué?**  
+Este grupo extiende el flujo hasta la posventa y asegura que los administradores puedan sostener el funcionamiento del sistema.
+
+---
+
+### 📦 3. **Gestión Avanzada y Personalización (Cliente/Admin)**
+**Historias incluidas:**
+- HU04 – Eliminar usuario  
+- HU05 – Actualizar usuario  
+- HU07 – Filtro de productos  
+- HU10 – Recomendaciones  
+- HU17 – Agregar producto  
+- HU19 – Actualizar producto  
+- HU20 – Gestionar inventario  
+- HU21 – Subida de fichas técnicas  
+- HU22 – Panel de estadísticas  
+- HU23 – Reportes  
+- HU24 – Protección de datos  
+- HU25 – Asignación de roles
+
+**🎯 Objetivo:**  
+**Garantizar una gestión eficiente, segura y personalizada del sistema y del catálogo de productos, permitiendo a los administradores controlar usuarios, inventario y datos, y a los clientes encontrar fácilmente los paneles más adecuados a sus necesidades.**
+
+**🧠 ¿Por qué?**  
+Este conjunto potencia la personalización del catálogo para el cliente y fortalece la administración del sistema en un entorno seguro y escalable.
+
+---
+
 ## ✅ Criterios de Aceptación
 
 Se definieron criterios de aceptación para cada historia de usuario.  
@@ -163,20 +223,4 @@ Se seleccionaron historias de usuario que sumaban 15 puntos, priorizadas según 
 - `README.md`: Este documento explicativo completo.  
 - `criterios_aceptacion.txt`: Criterios de aceptación para cada HU.  
 - `Historias_de_Usuario.xlsx`: Backlog funcional con épicas, historias, criterios, prioridades, estado y responsables.  
-- `SprintBacklog.xlsx`: Planificación del sprint con esfuerzo, puntos e integrantes.  
-- `HistoriasClasificadas.xlsx`: Estimaciones por Planning Poker, T-Shirt Sizing y Story Points.
-
----
-
-## ✍️ Autor
-
-**Johan Castillo** – Estudiante en formación de desarrollo ágil y SCRUM  
-👩‍🏫 Instructora guía: Carolina Forero – SENA
-
----
-
-## 📚 Referencias
-
-- Estimación de Historias de Usuario – Presentación PDF SENA  
-- Videos oficiales de formación en SCRUM – SENA  
-- [scrumpoker.online](https://scrumpoker.online/) – Herramienta para estimación grupal
+- `SprintBacklog.xlsx`:
